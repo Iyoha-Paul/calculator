@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f8f9fa;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.container {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-color: #212529;
+  max-width: 80rem;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  border-radius: 9px;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-num-zero {
+  grid-column: 2/span 2;
+  width: 100%;
+  border-radius: 20rem;
+}
+.btn-equal {
+  grid-row: 6/8;
+  grid-column: -1/-2;
+  height: 100%;
+  border-radius: 20rem;
+}
+.btn:hover {
+  background-color: #212529;
+  color: #f8f9fa;
+  border: #f8f9fa solid 1px;
+}
+
+.input {
+  padding: 0.8rem;
+  font-size: 1.6rem;
+  grid-column: 1/-1;
+  grid-row: 1/3;
+  height: 4rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=main.css.map */
