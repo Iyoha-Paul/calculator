@@ -42,7 +42,9 @@ body {
     height: 100%;
     border-radius: 20rem;
   }
-  &:hover {
+  &:hover,
+  &:focus,
+  &:active {
     background-color: $primary-color;
     color: $secondary-color;
     border: $secondary-color solid 1px;
